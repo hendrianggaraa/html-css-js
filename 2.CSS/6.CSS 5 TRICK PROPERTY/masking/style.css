@@ -1,0 +1,10 @@
+img {
+    /* mask: url(img/cpu.svg);
+    -webkit-mask: url(img/cpu.svg);
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat; */
+
+    /* Mengelilingi Gambar */
+    mask-border: url(img/music.svg);
+    -webkit-mask-box-image: url(img/hand.svg) 600 repeat;
+}

@@ -1,0 +1,96 @@
+/* filter: none | blur(px) | brightness(%) | contrast(%) | drop-shadow() | grayscale(%) | hue-rotate(deg) | invert(%) | opacity(%) | saturate(%) | sepia(%) | url(svg-url#element-id); */
+
+/* FOTO */
+.foto {
+    display: inline-block;
+}
+
+.foto img {
+    width: 100px;
+}
+
+.filter1 {
+    filter: blur(10px);
+}
+
+.filter2 {
+    filter: brightness(2);
+}
+
+.filter3 {
+    filter: contrast(150%);
+}
+
+.filter4 {
+    filter: saturate(50%);
+}
+
+.filter5 {
+    filter: hue-rotate(80deg);
+}
+
+.filter6 {
+    filter: invert(1.1);
+}
+
+.filter7 {
+    filter: sepia(100%);
+}
+
+.filter7 {
+    filter: opacity(.5);
+}
+
+.filter8 {
+    filter: drop-shadow(10px 5px 5px black);
+}
+
+.filter9 {
+    filter: grayscale(.9);
+}
+
+.filter10 {
+    filter: grayscale(.9);
+}
+
+
+/* PINNEAPPLE */
+.blur {
+    filter: blur(4px);
+}
+
+.brightness {
+    filter: brightness(0.30);
+}
+
+.contrast {
+    filter: contrast(180%);
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
+
+.huerotate {
+    filter: hue-rotate(180deg);
+}
+
+.invert {
+    filter: invert(100%);
+}
+
+.opacity {
+    filter: opacity(50%);
+}
+
+.saturate {
+    filter: saturate(7);
+}
+
+.sepia {
+    filter: sepia(100%);
+}
+
+.shadow {
+    filter: drop-shadow(8px 8px 10px rgb(68, 68, 68));
+}

@@ -1,0 +1,11 @@
+::before & ::after
+sebuah pseudo-element yang memungkinkan kita untuk menambahkan konten(sebelum / sesudah elemen) pada halaman HTML hanya melalui CSS saja (tanpa harus menambahkannya pada kode HTML).
+
+Pseudo-element
+Bagian dari sebuah elemen yang dapat kita beri style secara terpisah.
+Huruf pertama, baris pertama, konten sebelum dan sesudah, dll.
+
+: VS ::
+Semua browser yang support :: pasti support juga : kecuali IE8(ke bawah) hanya support :
+
+:: secara semantik digunakan untuk membedakan pseudo-elemen dengan pseudo-selector

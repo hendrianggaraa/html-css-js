@@ -1,0 +1,29 @@
+/* min-content & max-content */
+/* Menentukan seberapa besar ukutan grid track berdasarkan content pada sebuah item */
+/* grid-templeate-columns: min-content | max-content; */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ddd;
+}
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+    display: grid;
+    /* grid-template-columns: 1fr max-content 1fr; */
+    grid-template-columns: 1fr min-content 1fr;
+}
+
+.item {
+    background-color: rgb(0, 204, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:nth-child(even) {
+    background-color: rgb(255, 0, 128);
+}

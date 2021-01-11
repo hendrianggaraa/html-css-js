@@ -1,0 +1,14 @@
+/* h1::before {
+    content: url("home.png") " ";
+} */
+
+h1::before {
+    content: "";
+    display: block;
+    background: url("Originals/home.png") no-repeat;
+    background-size: 29px;
+    width: 29px;
+    height: 29px;
+    float: left;
+    margin: 2px 8px 0 0;
+}

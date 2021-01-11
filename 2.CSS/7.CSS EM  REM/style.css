@@ -1,0 +1,94 @@
+/* Rem relative terhadap rootnya default 16px */
+/* Em relative terhadap element parentnya untuk font-size default 16px */
+/* em akan melihat dulu elemen yg bersangkutan/pembungkusnya ada font-sizenya tidak... untuk length(padding,margin, etc) selain font-size*/
+
+/* html {
+    font-size: 10px;
+} */
+
+:root {
+    /* font-size: 10px; */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    text-align: center;
+    background-color: #eee;
+    line-height: 1.6;
+    font-weight: 300;
+    min-height: 2000px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.typography {
+    display: flex;
+}
+
+.typography .col {
+    flex: 1;
+    margin: 0 0.5em;
+    padding: 0 0.5em;
+}
+
+/* em */
+/* 2 kali elemen pembungkusnya | nilai default 16px */
+/* .col-em {
+    font-size: 10px;
+} */
+
+/* .typography {
+    font-size: 10px;
+}
+
+.col-em {
+    font-size: 2em;
+}
+
+.col-em h2 {
+    font-size: 2em;
+}
+
+.col-em p {
+    font-size: 1.5em;
+} */
+
+/* rem */
+/* .col-rem {
+    font-size: 10px;
+}
+
+.col-rem h2 {
+    font-size: 2rem;
+}
+
+.col-rem p {
+    font-size: 1.5rem;
+} */
+
+.btn {
+    display: inline-block;
+    box-sizing: border-box;
+    background: #333;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1em 3em;
+    /* margin: 0 1.5em; */
+    margin: 0 1.5rem;
+}
+
+
+/* Relatif terhadap element yg bersangkutan (padding) */
+.btn-sm {
+    font-size: 0.5em;
+}
+
+.btn-lg {
+    font-size: 2em;
+}

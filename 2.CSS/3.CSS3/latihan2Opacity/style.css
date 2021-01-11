@@ -1,0 +1,24 @@
+/* div {
+    width: 300px;
+    height: 300px;
+    background-color: gold;
+    opacity: 0.5;
+} */
+
+.satu {
+    width: 300px;
+    height: 300px;
+    background-color: gold;
+    opacity: .5;
+    position: relative;
+}
+
+.dua {
+    width: 100px;
+    height: 100px;
+    background-color: indigo;
+    position: absolute;
+    bottom: -50px;
+    right: -50px;
+    opacity: .5;
+}

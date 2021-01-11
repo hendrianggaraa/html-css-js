@@ -1,0 +1,87 @@
+/* align-items: Mensejajarkan grid-items pada sumbu Vertikal */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: #f5f7f8;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    display: grid;
+    grid: 130px 130px 130px / repeat(3, 1fr);
+    gap: 5px;
+    /* align-items: start; */
+    /* align-items: end; */
+    align-items: center;
+
+    /* Nilai default */
+    /* align-items: stretch; */
+}
+
+.container div {
+    width: 150px;
+    color: white;
+    font-size: 20px;
+    /* padding: 50px; */
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+
+.item-1 {
+    background: #3d8bb1;
+}
+
+.item-2 {
+    background: #33a8a5;
+}
+
+.item-3 {
+    background: #e03f3f;
+}
+
+.item-4 {
+    background: #6a478f;
+}
+
+.item-5 {
+    background: #da6f2b;
+}
+
+.item-6 {
+    background: #b03532;
+}
+
+.item-7 {
+    background: #30997a;
+}
+
+.item-8 {
+    background: #59a627;
+}
+
+.item-9 {
+    background: #4464a1;
+}
+
+.item-1,
+.item-4,
+.item-7 {
+    height: 60px;
+}
+
+.item-2,
+.item-5,
+.item-8 {
+    height: 90px;
+}
+
+.item-3,
+.item-6,
+.item-9 {
+    height: 30px;
+}

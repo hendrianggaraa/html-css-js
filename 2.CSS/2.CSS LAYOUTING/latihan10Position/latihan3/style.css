@@ -1,0 +1,33 @@
+body {
+	height: 2000px;
+}
+
+div {
+	width: 200px;
+	height: 200px;
+	margin: auto;
+}
+
+.container {
+	width: 600px;
+	height: 600px;
+	border: 5px solid rgb(255, 0, 0);
+	position: relative;
+}
+
+.satu {
+	background-color: lightgreen;
+}
+
+.dua {
+	background-color: violet;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 50px;
+	width: 100%;
+}
+
+.tiga {
+	background-color: gold;
+}

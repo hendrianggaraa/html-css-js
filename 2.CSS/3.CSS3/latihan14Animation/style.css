@@ -1,0 +1,43 @@
+/* animation: [name] [duration] [timing-function] [delay] [iteration-count]value: <angka>, infinite [direction]value: normal| reverse | alternate | alternate-reverse [fill-mode] value: none, forwards, backwards, both [play-state] value: running, paused */
+
+.kotak {
+    width: 200px;
+    height: 200px;
+    background-color: salmon;
+    /* transition: 2s ease all; */
+    /* animation: animasiKotak 2s ease; */
+    animation: animasiKotak 3s ease infinite alternate-reverse forwards;
+    /* animation-name: animasiKotak;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite; */
+}
+
+/* .kotak:hover {
+    width: 500px;
+    animation: animasiKotak 2s ease;
+} */
+
+@keyframes animasiKotak {
+    /* from {
+        width: 200px;
+    }
+
+    to {
+        width: 500px;
+    } */
+
+    0% {
+        width: 200px;
+    }
+
+    50% {
+        width: 500px;
+        height: 200px;
+    }
+
+    100% {
+        width: 500px;
+        height: 500px;
+    }
+}

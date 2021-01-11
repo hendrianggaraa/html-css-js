@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form - HTML5</title>
+</head>
+
+<body>
+    <!-- Form Biasa -->
+    <form>
+        <label for="username">username :</label>
+        <input type="text" id="username">
+        <br>
+        <label for="password">pasword :</label>
+        <input type="password" id="password">
+        <br>
+        <input type="radio" name="jenisKelamin" id="pria"><label for="pria">Pria</label>
+        <input type="radio" name="jenisKelamin" id="wanita"><label for="wanita">Wanita</label>
+        <br>
+        <input type="checkbox" id="menyanyi"><label for="menyanyi">menyanyi</label>
+        <input type="checkbox" id="ngoding"><label for="ngoding">ngoding</label>
+        <input type="checkbox" id="olahraga"><label for="olahraga">olahraga</label>
+        <br>
+        <textarea></textarea>
+        <br>
+        <select>
+            <option>Bandung</option>
+            <option>Jakarta</option>
+            <option>Yogyakarta</option>
+        </select>
+        <br>
+        <button type="submit">Kirim!</button>
+    </form>
+    <hr>
+    <br>
+    <br>
+
+    <!-- Form Dan Tabel -->
+    <table border="0" cellspacing="0" cellpadding="7">
+        <tr>
+            <td><label for="username">username: </label></td>
+            <td colspan="2"><input type="text" id="username"></td>
+        </tr>
+        <tr>
+            <td><label for="password">pasword: </label></td>
+            <td colspan="2"><input type="password" id="password"></td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="jenisKelamin" id="pria"><label for="pria">Pria</label></td>
+            <td colspan="2"><input type="radio" name="jenisKelamin" id="wanita"><label for="wanita">Wanita</label></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" id="menyanyi"><label for="menyanyi">menyanyi</label></td>
+            <td><input type="checkbox" id="olahraga"><label for="olahraga">olahraga</label></td>
+            <td><input type="checkbox" id="ngoding"><label for="ngoding">ngoding</label></td>
+        </tr>
+        <tr>
+            <td>Teks: </td>
+            <td colspan="2"><textarea></textarea></td>
+        </tr>
+        <tr>
+            <td>Pilih: </td>
+            <td>
+                <select>
+                    <option>Bandung</option>
+                    <option>Jakarta</option>
+                    <option>Yogyakarta</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <center><button type="submit">Kirim!</button></center>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <br>
+    <br>
+
+</body>
+
+</html>

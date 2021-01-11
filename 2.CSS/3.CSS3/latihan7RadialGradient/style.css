@@ -1,0 +1,106 @@
+div {
+    width: 300px;
+    height: 150px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.satu {
+    background-image: radial-gradient(red, #f0d606, green);
+}
+
+.dua {
+    background-image: radial-gradient(red 10%, #f0d606 20%, green 80%);
+}
+
+.tiga {
+    background-image: radial-gradient(ellipse, red, #f0d606, green);
+}
+
+.empat {
+    background-image: radial-gradient(circle, red, #f0d606, green);
+}
+
+/* Closest-corner = Jarak dari pusat gradient ke sudut terdekat elemen */
+.lima {
+    background-image: radial-gradient(circle Closest-corner, rgb(255, 230, 0), rgb(255, 0, 106));
+}
+
+/* Closest-side = Jarak dari pusat gradient ke sisi terdekat elemen */
+.enam {
+    background-image: radial-gradient(circle Closest-side, rgb(255, 230, 0), rgb(255, 0, 106));
+}
+
+/* farthest-corner = Jarak dari pusat gradient ke sudut terjauh elemen */
+.tujuh {
+    background-image: radial-gradient(circle farthest-corner, rgb(255, 230, 0), rgb(255, 0, 106));
+}
+
+/* farthest-side = Jarak dari pusat gradient ke sisi terjauh elemen */
+.delapan {
+    background-image: radial-gradient(circle farthest-side, rgb(255, 230, 0), rgb(255, 0, 106));
+}
+
+.sembilan {
+    background-image: radial-gradient(circle at top, red, #f0d606, green);
+}
+
+.sepuluh {
+    background-image: radial-gradient(circle at bottom, red, #f0d606, green);
+}
+
+.sebelas {
+    background-image: radial-gradient(circle at left, red, #f0d606, green);
+}
+
+.duabelas {
+    background-image: radial-gradient(circle at right, red, #f0d606, green);
+}
+
+.tigabelas {
+    background-image: radial-gradient(circle at top left, red, #f0d606, green);
+}
+
+.empatbelas {
+    background-image: radial-gradient(circle at bottom left, red, #f0d606, green);
+}
+
+.limabelas {
+    background-image: radial-gradient(circle at top right, red, #f0d606, green);
+}
+
+.enambelas {
+    background-image: radial-gradient(circle at bottom right, red, #f0d606, green);
+}
+
+.tujuhbelas {
+    background-image: radial-gradient(circle Closest-corner at top, red, #f0d606, green);
+}
+
+.delapanbelas {
+    background-image: radial-gradient(circle farthest-corner at top, red, #f0d606, green);
+}
+
+.sembilanbelas {
+    background-image: radial-gradient(circle closest-side at top, red, #f0d606, green);
+}
+
+.duapuluh {
+    background-image: radial-gradient(circle farthest-side at top, red, #f0d606, green);
+}
+
+.duasatu {
+    background-image: radial-gradient(circle Closest-corner at left, red, #f0d606, green);
+}
+
+.duadua {
+    background-image: radial-gradient(circle farthest-corner at left, red, #f0d606, green);
+}
+
+.duatiga {
+    background-image: radial-gradient(circle closest-side at left, red, #f0d606, green);
+}
+
+.duaempat {
+    background-image: radial-gradient(circle farthest-side at left, red, #f0d606, green);
+}

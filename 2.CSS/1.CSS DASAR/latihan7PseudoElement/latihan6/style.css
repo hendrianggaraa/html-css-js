@@ -1,0 +1,22 @@
+blockquote {
+    font-family: georgia;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 50px;
+    line-height: 1.4em;
+    position: relative;
+}
+
+blockquote::before,
+blockquote::after {
+    content: open-quote;
+    font-size: 60px;
+    color: #999999;
+    line-height: 0;
+    position: relative;
+    top: 20px;
+}
+
+blockquote::after {
+    content: close-quote;
+}

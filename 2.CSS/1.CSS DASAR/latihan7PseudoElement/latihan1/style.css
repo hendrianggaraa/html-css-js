@@ -1,0 +1,14 @@
+div {
+    width: 100px;
+    height: 100px;
+    background: lightblue;
+    font-size: 12px;
+}
+
+div::after {
+    content: " World!";
+}
+
+div::before {
+    content: "Hi, ";
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "nama": "Muhammad Fikri",
+        "nrp": "384938493439483",
+        "jurusan": "Teknik Informatika",
+        "idDosenWali": 1
+    },
+    {
+        "nama": "Fiersa Besari",
+        "nrp": "424932321439483",
+        "jurusan": "Teknik Nuklir",
+        "idDosenWali": 1
+    },
+    {
+        "nama": "Hendri Anggara",
+        "nrp": "23238493439483",
+        "jurusan": "Elektronika Instrumentasi",
+        "idDosenWali": 2
+    }
+]

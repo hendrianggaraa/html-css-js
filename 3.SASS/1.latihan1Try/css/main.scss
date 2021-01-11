@@ -1,0 +1,17 @@
+$myColorSatu: rgb(60, 0, 156);
+$myColorDua: rgb(255, 255, 255);
+
+header {
+    background-color: $myColorSatu;
+    padding: 20px 10px;
+
+    h1 {
+        color: $myColorDua;
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 2rem;
+        color: $myColorDua;
+    }
+}

@@ -1,0 +1,63 @@
+/* grid */
+/* Shorthand untuk mendefinisikan properti-properti berikut dalam satu deklarasi */
+/* grid-template-rows, grid-template-columns, grid-template-areas, grid-auto-rows, grid-auto-column dan grid-auto-flow */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: #f5f7f8;
+}
+
+.container {
+    width: 90%;
+    margin: 50px auto;
+    display: grid;
+    grid: auto auto auto / repeat(2, 1fr) 150px;
+}
+
+.container div {
+    color: white;
+    font-size: 20px;
+    padding: 50px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+
+.item-1 {
+    background: #3d8bb1;
+}
+
+.item-2 {
+    background: #33a8a5;
+}
+
+.item-3 {
+    background: #e03f3f;
+}
+
+.item-4 {
+    background: #6a478f;
+}
+
+.item-5 {
+    background: #da6f2b;
+}
+
+.item-6 {
+    background: #b03532;
+}
+
+.item-7 {
+    background: #30997a;
+}
+
+.item-8 {
+    background: #59a627;
+}
+
+.item-9 {
+    background: #4464a1;
+}

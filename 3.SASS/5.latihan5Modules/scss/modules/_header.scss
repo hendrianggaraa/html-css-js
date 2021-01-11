@@ -1,0 +1,16 @@
+@use 'submodules/mixin'as m;
+
+.header ul {
+    // tulis nama file
+    @include m.inline-list();
+
+    li {
+        background-color: black;
+        padding: 0.7em;
+
+        // color: white;
+        a {
+            color: white;
+        }
+    }
+}

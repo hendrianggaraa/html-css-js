@@ -1,0 +1,23 @@
+/* clip-path: inset(px | persen), circle(), ellipses(sumbuX, SumbuY), polygon(banyak value-> X, Y) */
+
+img {
+    /* inset -> searah jarum jam */
+    /* clip-path: inset(100px 50px 25px 50px); */
+    /* clip-path: circle(100px); */
+    /* clip-path: ellipse(100px 100px); */
+    /* clip-path: polygon(0 0, 100px 100px, 300px 300px, 0 500px); */
+    /* clip-path: polygon(0 0, 100% 0, 50% 100%); */
+    /* clip-path: polygon(5% 15%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%); */
+    /* clip-path: polygon(36% 3%, 54% 28%, 83% 21%, 73% 47%, 83% 88%, 48% 71%, 15% 94%, 25% 62%, 0 46%, 30% 36%); */
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    background-image: url(img/1.jpg);
+    background-image: fixed;
+    background-attachment: fixed;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}

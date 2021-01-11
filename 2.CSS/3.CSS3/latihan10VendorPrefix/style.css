@@ -1,0 +1,19 @@
+/* Vendor prefixes https://caniuse.com/, http://pleeease.io/play/
+-webkit- (CHROME, SAFARI, FIREFOX, OPERA VERSI TERBARU)
+-moz- (FiREFOX)
+-ms- (IE)
+-op- (OPERA) */
+
+p {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.smoothed {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fill {
+    -webkit-text-fill-color: green;
+}

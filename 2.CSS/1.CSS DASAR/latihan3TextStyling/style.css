@@ -1,0 +1,16 @@
+h1 {
+    font-size: 150px;
+    color: #ff3c00;
+    text-decoration: overline;
+    text-transform: uppercase;
+}
+
+p {
+    text-align: right;
+    text-indent: 100px;
+    word-spacing: 5px;
+}
+
+a {
+    text-decoration: none;
+}

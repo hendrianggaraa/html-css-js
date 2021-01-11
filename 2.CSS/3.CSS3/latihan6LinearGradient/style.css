@@ -1,0 +1,60 @@
+div {
+    width: 300px;
+    height: 150px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.satu {
+    background-image: linear-gradient(red, #f0d606, green);
+}
+
+.dua {
+    background-image: linear-gradient(0deg, red, #f0d606, green);
+}
+
+.tiga {
+    background-image: linear-gradient(90deg, red, #f0d606, green);
+}
+
+.empat {
+    background-image: linear-gradient(-90deg, red, #f0d606, green);
+}
+
+.lima {
+    background-image: linear-gradient(to bottom, red, #f0d606, green);
+}
+
+.enam {
+    background-image: linear-gradient(to top, red, #f0d606, green);
+}
+
+.tujuh {
+    background-image: linear-gradient(to left, red, #f0d606, green);
+}
+
+.delapan {
+    background-image: linear-gradient(to right, red, #f0d606, green);
+}
+
+.sembilan {
+    background-image: linear-gradient(to left top, red, #f0d606, green);
+}
+
+.sepuluh {
+    background-image: linear-gradient(to left bottom, red, #f0d606, green);
+}
+
+.sebelas {
+    background-image: linear-gradient(to right bottom, red, #f0d606, green);
+}
+
+.duabelas {
+    background-image: linear-gradient(to right top, red, #f0d606, green);
+}
+
+.tigabelas {
+    width: 800px;
+    height: 400px;
+    background-image: linear-gradient(to right, red 20%, #f0d606 50%, green 40%);
+}

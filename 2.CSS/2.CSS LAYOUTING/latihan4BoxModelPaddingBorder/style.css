@@ -1,0 +1,41 @@
+/* Padding tidak bisa dikasih nilai negatif dan auto */
+/* Total Dimensi = Width/Height + Padding + Border */
+
+/* div {
+    width: 185px;
+    height: 200px;
+    background-color: coral;
+    margin: 20px auto;
+    /* padding: 20px 20px 30px 40px; */
+/* padding: 50px; */
+/* solid
+    border: 3px solid black; */
+/* dotted */
+/* border: 3px dotted black; */
+/* dashed */
+/* border: 3px dashed black; */
+/* double */
+/* border: 3px double black; */
+/* border-left: 5px solid black;
+    border-right: 10px dashed blue;
+} */
+
+div {
+    width: 600px;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+
+.satu {
+    /* width: 570px; */
+    background-color: royalblue;
+    padding: 10px;
+    border: 15px solid red;
+}
+
+.dua {
+    /* width: 520px; */
+    background-color: lightgreen;
+    padding: 30px;
+    border: 10px dashed orange;
+}

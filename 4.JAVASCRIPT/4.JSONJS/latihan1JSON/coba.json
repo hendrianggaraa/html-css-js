@@ -1,0 +1,30 @@
+[
+    {
+        "nama" : "Hendri",
+        "umur" : 32,
+        "nrp" : "0202902910",
+        "lulus" : true,
+        "hobby" : [
+            "coding",
+            "gaming"
+        ],
+        "pembimbing": {
+            "pembimbing1" : "Dinda Arial",
+            "pembimbing2" : "Marley Arial"
+        }
+    },
+    {
+        "nama" : "Nisa",
+        "umur" : 32,
+        "nrp" : "0202902910",
+        "lulus" : true,
+        "hobby" : [
+            "coding",
+            "gaming"
+        ],
+        "pembimbing": {
+            "pembimbing1" : "Dinda Arial",
+            "pembimbing2" : "Marley Arial"
+        }
+    }
+]

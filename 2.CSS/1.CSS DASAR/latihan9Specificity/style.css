@@ -1,0 +1,27 @@
+/* https://specificity.keegan.st/ */
+
+/* Specificity
+        0       0           0           0
+    inline  |  id    |   class   |    elemen */
+
+
+/* Specificity ul#sarapan li
+    0       1           0           2
+inline  |  id    |   class   |    elemen */
+ul#sarapan li {
+    color: green;
+}
+
+/* Specificity .favorit
+    0       0           1           0
+inline  |  id    |   class   |    elemen */
+.favorit {
+    color: red;
+}
+
+/* Specificity ul#sarapan li.favorit
+    0       1           1           2
+inline  |  id    |   class   |    elemen */
+ul#sarapan li.favorit {
+    color: red;
+}

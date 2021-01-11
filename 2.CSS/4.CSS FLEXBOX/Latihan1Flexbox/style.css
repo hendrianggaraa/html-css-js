@@ -1,0 +1,79 @@
+.container {
+    width: 600px;
+    height: 150px;
+    border: 5px solid #333;
+    margin: 30px auto;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+
+    /* Mengatur arah / urutan dari items di dalam container  
+    flex-direction: row | row-reverse | column | column-reverse;*/
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+
+    /* Wrap memungkinkan untuk memindahkan items ke baris di bawahnya 
+    flex-wrap: nowrap | wrap | wrap-reverse */
+    /* flex-wrap: wrap; */
+
+    /* Mengatur items secara horizontal 
+    justify content: flex-start | flex-end | center | space-between | space-around | space-evenly */
+    /* justify-content: space-evenly; */
+
+    /* Mengatur items secara vertikal align 
+    align-items: flex-start | flex-end | center | stretch |baseline*/
+    /* Baseline mensejajarkan tulisan */
+    align-items: stretch;
+
+    /* Mengatur jarak antar items terhadap cross axis (hanya berfungsi ketika items lebih dari 1 baris) */
+    /* align-content: flex-start | flex-end | center | stretch | space-between | space-around; */
+    /* align-content: space-around; */
+}
+
+/* .container::after {
+    content: '';
+    display: block;
+    clear: both;
+} */
+
+.container div {
+    /* width: 120px;
+    height: 120px; */
+    background-color: cadetblue;
+    /* float: left; */
+    margin: 2px;
+    flex: 1;
+}
+
+/* .container div.tiga {
+    font-size: 60px;
+}
+
+.container div.empat {
+    font-size: 100px;
+} */
+
+/* Order menukar urutan pada items*/
+/* .satu {
+    order: 3;
+}
+
+.dua {
+    order: 4;
+}
+
+.tiga {
+    order: 2;
+}
+
+.empat {
+    order: 1;
+} */
+
+/* Mengatur ukuran dari item  */
+/* Mengatur perilaku penjajaran sebuah item yg spesifik terhadap cross axis */
+/* align-self: auto | fles-start | flex-end | center | baseline | stretch */
+.container div.dua {
+    flex: 3;
+    align-self: center;
+}

@@ -1,0 +1,50 @@
+// CSS Variables
+// :root {
+//     --primary-color: #f4f1de;
+//     --secondary-color: #f2cc8f;
+//     --text-color: #00858f;
+// }
+
+// body {
+//     background-color: var(--primary-color);
+// }
+
+// h1 {
+//     color: var(--text-color);
+// }
+
+// p {
+//     color: var(--text-color);
+// }
+
+
+// SASS Variables
+// Dash and Underscore is same
+// $secondary-color: #f2cc8f;
+// $text-color: #e07a5f;
+// $primary-color: green;
+
+// body {
+//     $primary-color: #f4f1de !global;
+//     // $primary-color: #f4f1de;
+//     background-color: $primary_color;
+
+// }
+
+// h1 {
+//     color: $primary-color;
+// }
+
+
+// Map
+// $alert_danger: red;
+// $alert-success: green;
+// $alert-warning: orange;
+$alert: ('danger': red,
+    'success': green,
+    'warning': orange,
+);
+
+h1 {
+    color: map-get($map: $alert, $key: 'warning');
+}

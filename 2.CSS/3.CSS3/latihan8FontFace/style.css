@@ -1,0 +1,31 @@
+/* @font-face {
+    font-family: 'namaFontBaru';
+    src: url('lokasi/file/fontBaru.eot');
+    src: url('lokasi/file/fontBaru.eot?#iefix') format('embedded-opentype'),
+         url('lokasi/file/fontBaru.wdff2') format('woff2'),
+         url('lokasi/file/fontBaru.woff') format('woff'),
+         url('lokasi/file/fontBaru.ttf') format('truetype'),
+         url('lokasi/file/fontBaru.svg#svgFontName') format('svg');
+} */
+
+/* woff = Web Open Font Format
+svg = Scalable Vector Graphics
+iefix = Untuk internet explorer */
+
+@font-face {
+    font-family: 'Alex Brush';
+    src: url(font/AlexBrush-Regular.ttf) format('truetype');
+}
+
+p {
+    font-size: 100px;
+    text-align: center;
+}
+
+.satu {
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.dua {
+    font-family: 'Alex Brush', arial;
+}
